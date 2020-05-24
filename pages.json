@@ -1,0 +1,89 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"titleNView":false //禁用原生导航栏
+				},
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+            "path" : "pages/search/search",
+            "style" : {
+				
+			},
+			"enablePullDownRefresh":true
+        },
+		{
+            "path" : "pages/category/category",
+            "style" : {
+				
+			},
+			"enablePullDownRefresh":true
+        }
+        ,{
+            "path" : "pages/show/show",
+            "style" : {
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"type" : "share"
+							}
+						]
+					}
+				}
+			},
+			"enablePullDownRefresh":true
+        }
+        ,{
+            "path" : "pages/file/file",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "程序猿修炼手札",
+		"navigationBarBackgroundColor": "#AB956D",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color":"#989898",
+		"selectedColor":"#AB956D",
+		"borderStyle":"white",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/select-ico/home.png",
+				"selectedIconPath":"static/select-ico/home@selected.png"
+				
+			},
+			{
+				"pagePath":"pages/search/search",
+				"text":"搜索",
+				"iconPath":"static/select-ico/CNode.png",
+				"selectedIconPath":"static/select-ico/CNode@selected.png"
+			},
+			{
+				"pagePath":"pages/category/category",
+				"text":"分类",
+				"iconPath":"static/select-ico/category.png",
+				"selectedIconPath":"static/select-ico/category@selected.png"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

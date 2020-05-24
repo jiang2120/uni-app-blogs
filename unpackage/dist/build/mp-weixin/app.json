@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/category/category",
+    "pages/show/show",
+    "pages/file/file"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "程序猿修炼手札",
+    "navigationBarBackgroundColor": "#AB956D",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#989898",
+    "selectedColor": "#AB956D",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/select-ico/home.png",
+        "selectedIconPath": "static/select-ico/home@selected.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "static/select-ico/CNode.png",
+        "selectedIconPath": "static/select-ico/CNode@selected.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "static/select-ico/category.png",
+        "selectedIconPath": "static/select-ico/category@selected.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

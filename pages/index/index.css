@@ -1,0 +1,88 @@
+
+.carousel{
+	width: 100%;
+	height: 334upx;
+}
+
+.article-hot{
+	margin-top: 15upx;
+	padding: 20upx;
+}
+.hot-title-nav{
+	display: flex;
+	flex-direction: row;
+}
+.hot-icon{
+	width: 30upx;
+	height: 30upx;
+	margin-top:15upx;
+}
+.hot-title{
+	font-size: 16px;
+	margin-left: 20upx;
+	color: #AB956D;
+	font-weight: bold;
+}
+.hot{
+	width: 100%;
+	min-height: 120upx;
+	white-space: nowrap;
+	margin-top: 25upx;
+}
+.article-sing{
+	display: inline-block;
+	margin-left: 20upx;
+}
+.sing-wapper{
+	display: flex;
+	flex-direction: column;
+}
+.sing{
+	height: 166upx;
+	width: 166upx;
+}
+.title{
+	color: #333333;
+	width: 166upx;
+	margin: 10upx 0;
+	font-size: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.article-new{
+	display: flex;
+	flex-direction: column;
+}
+.article-wapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30upx 20upx;
+}
+.article-icon{
+	width: 340upx;
+	height: 210upx;
+	border-radius: 3%;
+}
+.article-desc{
+	display: flex;
+	flex-direction: column;
+	width: 340upx;
+}
+.article-title{
+	color: #333333;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 5upx;
+}
+.article-info{
+	color: #333333;
+	font-size: 14px;
+	padding: 20upx;
+}
+.hr-border{
+	border:1px dashed #A5C5DD
+}
